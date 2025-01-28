@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(53, 161, 207);
+}
+img{
+   width: 250px;
+   height: 500px;
+}
+#img1{
+    width: 500px;
+    height: 500px;
+    border-radius: 81px;
+}
+#botoncito{
+    color:darkslateblue;
+    background: burlywood;
+    font-family: Arial;
+    font-size: larger;
+    border-color: rgb(0, 0, 0);
+    border-radius:10px;
+    cursor:all-scroll;
+    background-color: black;
+
+}
+#botoncito:hover{
+    background-color: crimson;
+}
+
+nav{
+    background-color: black;
+    color: beige;
+    text-align: center;
+    font-family: helvetica;
+}
+li{
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    font-family: helvetica;
+    font-size: 25px;
+
+}
+a{
+    color: white;
+    text-decoration: none; /*quita l subrayado*/
+
+}
+nav ul li a{
+    padding: 40;
+}
