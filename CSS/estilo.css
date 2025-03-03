@@ -165,3 +165,11 @@ tr:hover{
         height: 350px;
         border-radius: 8px;
     }
+    #videoEZO{
+        display:block;
+        margin: auto;
+    }
+    #videoVALAK{
+        display: block;
+        margin: auto;
+    }
