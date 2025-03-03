@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(53, 161, 207);
+    background-color: rgb(181, 181, 181);
 }
 img{
    width: 250px;
@@ -18,7 +18,7 @@ img{
     border-color: rgb(0, 0, 0);
     border-radius:10px;
     cursor:all-scroll;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 
 }
 #botoncito:hover{
@@ -26,7 +26,7 @@ img{
 }
 
 nav{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: beige;
     text-align: center;
     font-family: helvetica;
@@ -46,5 +46,122 @@ a{
 
 }
 nav ul li a{
-    padding: 40;
+    padding: 10;
 }
+nav ul li a:hover {
+    background-color: darkgrey;
+    color: cornflowerblue;
+}
+/*Estilos para el menu principal */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    position: relative; /*Necesario para  el submenu*/
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+nav ul li a:hover{
+    background-color: #939aa2;
+}
+/*submenu - inicializacion oculta*/
+nav ul  li.opcion-submenu .submenu {
+    display: none; /*submenu oculto por defecto*/
+    position: absolute; /*posicionar el submenu justo debajo*/
+    background-color: #222; /*fondo oscuro*/
+    border-radius: 5px;
+}
+/*mostrar el subemnu  al pasar el cursor sobre el elemento*/
+nav ul li.opcion-submenu:hover .submenu {
+    display: block; /*mostrar el submenu cuando se pasa */
+}
+/*Estilos del  submenu*/
+nav ul li .submenu li {
+    margin: 0;
+}
+nav ul li .submenu li a {
+    font-size: 15px;
+    color: white;
+    display: block;
+}
+nav  ul  li .submenu li a:hover {
+    background-color: #a5aaaa;
+}
+img{
+    display:block;
+    margin:auto;
+}
+section {
+    padding: 20px;
+    text-align: center;
+    color: #ddd;
+    background-color: #000000;
+    }
+    .imagenes{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        background-color: (181,181,181);
+    }
+    .imagenes img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+    .imagenes img:hover {
+        transform: scale(1.5);
+    }
+        .imagenes img{
+            height: 200px;
+            width: 350px;
+            border-radius: 8px;
+        }
+#esozu1{
+    height: 300px;
+    width: 350px;
+    border-radius: 8px;
+}
+#H1{
+    background-color: rgb(46, 186, 186);
+}
+table{
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgb(181, 181, 181)
+}
+th, td{
+    padding: 15px;
+    text-align: center;
+    font-weight: normal;
+    border: 3px solid #231111
+}
+td img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+tr:hover{
+    background-color: #ddd;
+}
+    #imgbolaama{
+        width: 350px;
+        height: 350px;
+        border-radius: 8px;
+    }
